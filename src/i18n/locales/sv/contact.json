@@ -1,0 +1,12 @@
+{
+  "title": "Kontakta Mig",
+  "description": "Tveka inte att kontakta mig via formuläret nedan eller e-post.",
+  "form": {
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "submit": "Skicka",
+    "alertThankYou": "Tack för ditt meddelande!",
+    "thankYouMessage": "Tack! Jag återkommer snart."
+  }
+}

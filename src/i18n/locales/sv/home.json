@@ -1,0 +1,53 @@
+{
+  "introduction": {
+    "title": "Introduktion",
+    "intro": [
+      "Jag heter Oscar Wystråle och studerar webbutveckling vid BTH. Mina studier avslutas i januari 2026.",
+      "Under mina studier har jag utvecklat starka kunskaper inom programmering och teknik samt lärt mig att arbeta effektivt enligt agila arbetsmetoder.",
+      "Jag brinner för att skapa lösningar som kombinerar funktionalitet med användarvänlighet."
+    ]
+  },
+  "workExperience": {
+    "title": "Arbetslivserfarenhet",
+    "jobs": [
+      {
+        "position": "Lagerarbetare",
+        "company": "Nearyou",
+        "type": "Visstidsanställning",
+        "period": "Maj 2024 - Aug 2024"
+      },
+      {
+        "position": "Lagerarbetare",
+        "company": "JKS Sverige",
+        "type": "Visstidsanställning",
+        "period": "Juni 2023 - Aug 2023"
+      },
+      {
+        "position": "Lagerarbetare",
+        "company": "ICA Gruppen",
+        "type": "Visstidsanställning",
+        "period": "Maj 2022 - Juli 2022"
+      },
+      {
+        "position": "Kyrkogårdsvaktmästare",
+        "company": "Svenska Kyrkan Björnekulla",
+        "type": "Sommarjobb",
+        "period": "Juni 2017 – Juli 2021"
+      }
+    ]
+  },
+  "education": {
+    "title": "Utbildning",
+    "institution": "Blekinge Tekniska Högskola (BTH)",
+    "degree": "Kandidatexamen i webbutveckling",
+    "period": "2021 – 2026"
+  },
+  "publication": {
+    "title": "Publikation",
+    "paper": {
+      "authors": "Roolf, Zulius & Wystråle, Oscar",
+      "year": "2025",
+      "source": "DiVA Portal"
+    }
+  }
+}

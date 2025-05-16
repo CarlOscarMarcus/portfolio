@@ -1,0 +1,53 @@
+{
+  "introduction": {
+    "title": "Introduction",
+    "intro": [
+      "My name is Oscar Wystråle, and I study web programming at BTH. My studies will be done in January 2026.",
+      "During my studies, I have developed strong skills in programming and technology and learned to work efficiently according to agile working methods.",
+      "I am passionate about creating solutions that combine functionality with ease of use."
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "position": "Warehouse Worker",
+        "company": "Nearyou",
+        "type": "Temporary employment",
+        "period": "May 2024 - Aug 2024"
+      },
+      {
+        "position": "Warehouse Worker",
+        "company": "JKS Sverige",
+        "type": "Temporary employment",
+        "period": "June 2023 - Aug 2023"
+      },
+      {
+        "position": "Warehouse Worker",
+        "company": "ICA Gruppen",
+        "type": "Temporary employment",
+        "period": "May 2022 - July 2022"
+      },
+      {
+        "position": "Cemetery Warden",
+        "company": "Svenska Kyrkan Björnekulla",
+        "type": "Summer job",
+        "period": "June 2017 – July 2021"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "institution": "Blekinge Institute of Technology (BTH)",
+    "degree": "Bachelor’s Degree in Web Programming",
+    "period": "2021 – 2026"
+  },
+  "publication": {
+    "title": "Publication",
+    "paper": {
+      "authors": "Roolf, Zulius & Wystråle, Oscar",
+      "year": "2025",
+      "source": "DiVA Portal"
+    }
+  }
+}

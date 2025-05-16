@@ -1,0 +1,54 @@
+{
+  "experienceTitle": "Work Experience",
+  "educationTitle": "Education",
+  "experience": [
+    {
+      "role": "Warehouse Worker",
+      "company": "Nearyou",
+      "date": "May 2024 – Aug 2024, Summer Job",
+      "details": [
+        "Order picking (manual and full pallets) with truck (A2, B3)",
+        "Loading/unloading goods (A2)",
+        "Handling refrigerated, frozen, and dry goods"
+      ]
+    },
+    {
+      "role": "Warehouse Worker",
+      "company": "JKS Sverige",
+      "date": "June 2023 – Aug 2023, Summer Job",
+      "details": [
+        "Order picking with truck (A1, A2)",
+        "Worked in dry storage with confectionery"
+      ]
+    },
+    {
+      "role": "Warehouse Worker",
+      "company": "ICA Gruppen",
+      "date": "May 2022 – July 2022, Summer Job",
+      "details": [
+        "Order picking with truck (A1)",
+        "Focused on accuracy and efficiency in a high-paced environment",
+        "Handling of frozen goods"
+      ]
+    },
+    {
+      "role": "Caretaker",
+      "company": "Swedish Church, Björnekulla",
+      "date": "June 2017 – July 2021, Summer Job",
+      "details": [
+        "General maintenance work and outdoor practical tasks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Blekinge Institute of Technology (BTH)",
+      "program": "Web Programming",
+      "date": "2021 – 2025 (Ongoing)",
+      "details": [
+        "Studies expected to complete in january 2026",
+        "Strong computer skills and technical understanding"
+      ]
+    }
+  ]
+}

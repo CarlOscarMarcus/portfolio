@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "name": "Oscar Wystråle",
+    "title": "Mjukvaruutvecklare",
+    "phone": "Telefon",
+    "email": "E-post",
+    "dob": "Födelsedag",
+    "phoneNumber": "+46 70 577 66 02",
+    "emailAddress": "oscar@wysarna.se",
+    "dateOfBirth": "21:a April 2002"
+  }
+}

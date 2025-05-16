@@ -1,0 +1,11 @@
+{
+  "title": "Mina Projekt",
+  "project1": {
+    "name": "Projekt Ett",
+    "description": "Ett coolt React-projekt som visar mina färdigheter."
+  },
+  "project2": {
+    "name": "Projekt Två",
+    "description": "Ett backend-API byggt med Node.js."
+  }
+}

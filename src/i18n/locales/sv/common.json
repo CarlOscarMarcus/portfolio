@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om mig",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "rights": "© 2025 Your Name. Alla rättigheter förbehållna."
+  },
+  "buttons": {
+    "submit": "Skicka",
+    "cancel": "Avbryt"
+  }
+}

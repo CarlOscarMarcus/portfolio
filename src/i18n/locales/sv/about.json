@@ -1,0 +1,54 @@
+{
+  "experienceTitle": "Arbetslivserfarenhet",
+  "educationTitle": "Utbildning",
+  "experience": [
+    {
+      "role": "Lagermedarbetare",
+      "company": "Nearyou",
+      "date": "Maj 2024 – Aug 2024, sommarjobb",
+      "details": [
+        "Orderplock (handplock och helpall) med truck (A2, B3)",
+        "Lastning/lossning av gods (A2)",
+        "Hantering av kyl-, frys- och torrvaror"
+      ]
+    },
+    {
+      "role": "Lagermedarbetare",
+      "company": "JKS Sverige",
+      "date": "Juni 2023 – Aug 2023, sommarjobb",
+      "details": [
+        "Orderplock med truck (A1, A2)",
+        "Arbetat i torrlager med konfektyr"
+      ]
+    },
+    {
+      "role": "Lagermedarbetare",
+      "company": "ICA Gruppen",
+      "date": "Maj 2022 – Juli 2022, sommarjobb",
+      "details": [
+        "Orderplock med truck (A1)",
+        "Fokus på noggrannhet och effektivitet i högt tempo",
+        "Hantering av frysvaror"
+      ]
+    },
+    {
+      "role": "Vaktmästare",
+      "company": "Svenska Kyrkan Björnekulla",
+      "date": "Juni 2017 – Juli 2021, sommarjobb",
+      "details": [
+        "Allmänt underhållsarbete och praktiska uppgifter utomhus"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Blekinge Tekniska Högskola (BTH)",
+      "program": "Webbprogrammering",
+      "date": "2021 – 2025, pågående",
+      "details": [
+        "Studier beräknas vara klara i januari 2026",
+        "God datorvana och teknisk förståelse"
+      ]
+    }
+  ]
+}

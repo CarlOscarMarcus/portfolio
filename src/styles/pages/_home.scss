@@ -1,0 +1,119 @@
+.cv-page {
+  width: 900px; // Controls the shared width of all content
+  margin: 0 auto;   // Centers content
+  padding: 2rem 1rem;
+
+  section {
+    width: 80%;           // Ensure full usage of container
+    margin-bottom: 3rem; // Consistent spacing between sections
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #1c1c1c;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+      p,
+      li {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 0.8rem;
+      }
+
+      strong {
+        color: #222;
+        font-weight: 600;
+      }
+
+      em {
+        color: #666;
+        font-style: italic;
+      }
+
+      span {
+        display: block;
+        color: #888;
+        font-size: 0.875rem;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+        list-style: disc;
+
+        li::marker {
+          color: #999;
+        }
+      }
+    }
+  }
+}
+
+
+// src/styles/components/_timeline.scss
+
+.timeline {
+  position: relative;
+  margin: 2rem auto;
+  padding-left: 2rem;
+  border-left: 3px solid #ccc;
+  max-width: 800px;
+}
+
+// Reuse this for experience, education, and publication cards
+.timeline .card {
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -1.35rem;
+    top: 1.2rem;
+    width: 14px;
+    height: 14px;
+    background-color: #2196f3;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2196f3;
+  }
+}
+
+// Optional: add spacing and max-width for all sections
+.experience-section,
+.education-section,
+.publications-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #333;
+  text-align: center;
+}
+
