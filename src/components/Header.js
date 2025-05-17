@@ -32,7 +32,6 @@ const Header = () => {
           <NavLink to="/" exact activeClassName="active">Home</NavLink>
           <NavLink to="/about" activeClassName="active">About</NavLink>
           <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
-          <NavLink to="/contact" activeClassName="active">Contact</NavLink>
         </nav>
 
         <div className="language-switch">
