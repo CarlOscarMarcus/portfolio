@@ -10,6 +10,12 @@
   "workExperience": {
     "title": "Work Experience",
     "jobs": [
+        {
+        "position": "Software Developer",
+        "company": "Telenor Sweden",
+        "type": "Course Project (PA1416)",
+        "period": "Jan 2025 - Ongoing"
+      },
       {
         "position": "Warehouse Worker",
         "company": "Nearyou",
