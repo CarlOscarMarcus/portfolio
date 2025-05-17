@@ -45,14 +45,16 @@ const CVTimeline = () => {
           {t('education.title')}
         </h3>
         <div className="timeline">
-          <div className="timeline-item">
-            <div className="timeline-dot" />
-            <div className="timeline-content">
-              <h4>{t('education.degree')}</h4>
-              <p>{t('education.institution')}</p>
-              <span className="timeline-date">{t('education.period')}</span>
+          {t('education.school', { returnObjects: true }).map((school, idx) => (
+            <div className="timeline-item" key={`school-${idx}`}>
+              <div className="timeline-dot" />
+              <div className="timeline-content">
+                <h4>{school.degree}</h4>
+                <p>{school.institution}</p>
+                <span className="timeline-date">{school.period}</span>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </section>
 

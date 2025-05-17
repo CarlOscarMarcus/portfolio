@@ -14,7 +14,7 @@
         "position": "Mjukvaruutvecklare",
         "company": "Telenor Sverige",
         "type": "Kurs Projekt (PA1416)",
-        "period": "Jan 2025 - Pågående"
+        "period": "Januari 2025 - Pågående"
       },
       {
         "position": "Lagerarbetare",
@@ -44,9 +44,18 @@
   },
   "education": {
     "title": "Utbildning",
-    "institution": "Blekinge Tekniska Högskola (BTH)",
-    "degree": "Kandidatexamen i mjukvaruutveckling",
-    "period": "2021 – 2026"
+    "school": [
+        {
+            "institution": "Blekinge Tekniska Högskola (BTH)",
+            "degree": "Kandidatexamen i mjukvaruutveckling",
+            "period": "2021 – 2026"
+        },
+        {
+            "institution": "NTI Gymnasiet",
+            "degree": "Information & medieteknik",
+            "period": "2018 – 2021"
+        }
+    ]
   },
   "publication": {
     "title": "Publikation",

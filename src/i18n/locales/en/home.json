@@ -14,7 +14,7 @@
         "position": "Software Developer",
         "company": "Telenor Sweden",
         "type": "Course Project (PA1416)",
-        "period": "Jan 2025 - Ongoing"
+        "period": "January 2025 - Ongoing"
       },
       {
         "position": "Warehouse Worker",
@@ -44,9 +44,19 @@
   },
   "education": {
     "title": "Education",
-    "institution": "Blekinge Institute of Technology (BTH)",
-    "degree": "Bachelor’s Degree in Software engineering",
-    "period": "2021 – 2026"
+    "school": [
+        {
+            "institution": "Blekinge Institute of Technology (BTH)",
+            "degree": "Bachelor’s Degree in Software engineering",
+            "period": "2021 – 2026"
+        },
+        {
+            "institution": "NTI Gymnasiet",
+            "degree": "Information & media technology",
+            "period": "2018 – 2021"
+        }
+        
+    ]
   },
   "publication": {
     "title": "Publication",
