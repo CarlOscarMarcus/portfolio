@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Briefcase, BookOpen, FileText } from 'lucide-react';
+import { Briefcase, BookOpen, FileText, ExternalLink} from 'lucide-react';
 
 const CVTimeline = () => {
   const { t } = useTranslation('home');
@@ -68,8 +68,13 @@ const CVTimeline = () => {
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <h4>The applicability of Generative AI in Systematic Literature Reviews</h4>
-              <p><em>Exploring GPT-4's Role in Automating and Assisting Researchers</em></p>
+              <a href='https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=Oscar+Wystr%C3%A5le&language=en&pid=diva2%3A1941180&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=4779' target='_blank'>
+                <h4>
+                    The applicability of Generative AI in Systematic Literature Reviews
+                    <ExternalLink size={16} style={{ display: 'inline-block', marginLeft: '4px' }} />
+                </h4>
+                <p><em>Exploring GPT-4's Role in Automating and Assisting Researchers</em></p>
+              </a>
               <p>{t('publication.paper.authors')}</p>
               <p>{t('publication.paper.source')}</p>
               <span className="timeline-date">{t('publication.paper.year')}</span>
