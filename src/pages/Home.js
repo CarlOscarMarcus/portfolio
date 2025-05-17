@@ -66,7 +66,9 @@ const CVTimeline = () => {
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <h4>{t('publication.paper.authors')}</h4>
+              <h4>The applicability of Generative AI in Systematic Literature Reviews</h4>
+              <p><em>Exploring GPT-4's Role in Automating and Assisting Researchers</em></p>
+              <p>{t('publication.paper.authors')}</p>
               <p>{t('publication.paper.source')}</p>
               <span className="timeline-date">{t('publication.paper.year')}</span>
             </div>

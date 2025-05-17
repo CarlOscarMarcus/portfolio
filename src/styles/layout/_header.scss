@@ -1,155 +1,234 @@
 @import '../base/variables';
 
 .site-header {
-	background-color: $secondary-color;
-	color: $white;
-	padding: 1rem 0;
+    background-color: $secondary-color;
+    color: $white;
+    padding: 1rem 0;
 
-	.container {
-		max-width: $max-width; // from your variables, e.g. 1200px
-		padding-left: $container-padding;
-		padding-right: $container-padding;
-		margin-left: auto;
-		margin-right: auto;
+    .container {
+        max-width: $max-width; // from your variables, e.g. 1200px
+        padding-left: $container-padding;
+        padding-right: $container-padding;
+        margin-left: auto;
+        margin-right: auto;
 
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-	.logo {
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 
-	.nav {
-		display: flex;
-		gap: 2rem;
+    .nav {
+        display: flex;
+        gap: 2rem;
 
-		.nav-link {
-			color: $white;
-			font-weight: 500;
-			transition: color 0.2s;
+        .nav-link {
+            color: $white;
+            font-weight: 500;
+            transition: color 0.2s;
 
-			&.active,
-			&:hover {
-				color: $primary-color;
-			}
-		}
-	}
+            &.active,
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    // Hamburger button styles
+    .hamburger {
+        display: none; // hide by default on desktop
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 20;
+
+        span {
+            width: 2rem;
+            height: 0.25rem;
+            background: $white;
+            border-radius: 10px;
+            transition: all 0.3s linear;
+            position: relative;
+            transform-origin: 1px;
+        }
+
+        &.open span:nth-child(1) {
+            transform: rotate(45deg);
+        }
+
+        &.open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        &.open span:nth-child(3) {
+            transform: rotate(-45deg);
+        }
+    }
+
+    // Responsive behavior
+    @media (max-width: 768px) {
+        .container {
+            flex-wrap: wrap;
+        }
+
+        .nav {
+            display: none; // hide nav links initially on mobile
+            flex-direction: column;
+            width: 100%;
+            background-color: $secondary-color;
+            margin-top: 1rem;
+            gap: 1rem;
+
+            &.nav-open {
+                display: flex; // show nav when menu is open
+            }
+
+            a {
+                padding: 0.75rem 1rem;
+                border-radius: 4px;
+
+                &.active,
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        .hamburger {
+            display: flex; // show hamburger button on mobile
+        }
+
+        .language-switch {
+            order: 1; // put language switch below the logo and hamburger
+            width: 100%;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
 }
 
 /* Paste your full CSS for .switch and its children here */
 .switch {
-	font-size: 17px;
-	position: relative;
-	display: inline-block;
-	width: 5em;
-	height: 2.5em;
-	user-select: none;
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 5em;
+    height: 2.5em;
+    user-select: none;
 }
 
 .switch .cb {
-	opacity: 0;
-	width: 0;
-	height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .toggle {
-	position: absolute;
-	cursor: pointer;
-	width: 100%;
-	height: 100%;
-	background-color: #373737;
-	border-radius: 0.1em;
-	transition: 0.4s;
-	text-transform: uppercase;
-	font-weight: 700;
-	overflow: hidden;
-	box-shadow: -0.3em 0 0 0 #373737, -0.3em 0.3em 0 0 #373737,
-		0.3em 0 0 0 #373737, 0.3em 0.3em 0 0 #373737, 0 0.3em 0 0 #373737;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: #373737;
+    border-radius: 0.1em;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: 700;
+    overflow: hidden;
+    box-shadow: -0.3em 0 0 0 #373737, -0.3em 0.3em 0 0 #373737,
+        0.3em 0 0 0 #373737, 0.3em 0.3em 0 0 #373737, 0 0.3em 0 0 #373737;
 }
 
 .toggle>.left {
-	position: absolute;
-	display: flex;
-	width: 50%;
-	height: 88%;
-	background-color: #f3f3f3;
-	color: #373737;
-	left: 0;
-	bottom: 0;
-	align-items: center;
-	justify-content: center;
-	transform-origin: right;
-	transform: rotateX(10deg);
-	transform-style: preserve-3d;
-	transition: all 150ms;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 88%;
+    background-color: #f3f3f3;
+    color: #373737;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    transform-origin: right;
+    transform: rotateX(10deg);
+    transform-style: preserve-3d;
+    transition: all 150ms;
 }
 
 .left::before {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: rgb(206, 206, 206);
-	transform-origin: center left;
-	transform: rotateY(90deg);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    transform-origin: center left;
+    transform: rotateY(90deg);
 }
 
 .left::after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: rgb(112, 112, 112);
-	transform-origin: center bottom;
-	transform: rotateX(90deg);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 112, 112);
+    transform-origin: center bottom;
+    transform: rotateX(90deg);
 }
 
 .toggle>.right {
-	position: absolute;
-	display: flex;
-	width: 50%;
-	height: 88%;
-	background-color: #f3f3f3;
-	color: rgb(206, 206, 206);
-	right: 1px;
-	bottom: 0;
-	align-items: center;
-	justify-content: center;
-	transform-origin: left;
-	transform: rotateX(10deg) rotateY(-45deg);
-	transform-style: preserve-3d;
-	transition: all 150ms;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 88%;
+    background-color: #f3f3f3;
+    color: rgb(206, 206, 206);
+    right: 1px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    transform-origin: left;
+    transform: rotateX(10deg) rotateY(-45deg);
+    transform-style: preserve-3d;
+    transition: all 150ms;
 }
 
 .right::before {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: rgb(206, 206, 206);
-	transform-origin: center right;
-	transform: rotateY(-90deg);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    transform-origin: center right;
+    transform: rotateY(-90deg);
 }
 
 .right::after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: rgb(112, 112, 112);
-	transform-origin: center bottom;
-	transform: rotateX(90deg);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 112, 112);
+    transform-origin: center bottom;
+    transform: rotateX(90deg);
 }
 
 .switch input:checked+.toggle>.left {
-	transform: rotateX(10deg) rotateY(45deg);
-	color: rgb(206, 206, 206);
+    transform: rotateX(10deg) rotateY(45deg);
+    color: rgb(206, 206, 206);
 }
 
 .switch input:checked+.toggle>.right {
-	transform: rotateX(10deg) rotateY(0deg);
-	color: $secondary-color;
+    transform: rotateX(10deg) rotateY(0deg);
+    color: $secondary-color;
 }

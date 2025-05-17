@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero__container">
         <div className="hero__box hero__box--image">
           <img
-            src="/images/portrait.jpg"
+            src={`${process.env.PUBLIC_URL}/images/portrait.jpg`}
             alt={t('hero.name')}
             className="hero__image"
           />
@@ -25,7 +25,11 @@ const Hero = () => {
                 <Phone size={16} style={{ marginRight: '6px', position: 'relative', top: '3px' }} />
                 {t('hero.phone')}:
               </span>
-              <span className="hero__value">{t('hero.phoneNumber')}</span>
+              <span className="hero__value">
+                    <a href={`tel:${t('hero.emailAddress')}`}>
+                        {t('hero.phoneNumber')}
+                    </a>
+                </span>
             </div>
 
             <div className="hero__field">
