@@ -1,13 +1,5 @@
 {
-  "introduction": {
-    "title": "Introduktion",
-    "intro": [
-      "Jag heter Oscar Wystråle och studerar webbutveckling vid BTH. Mina studier avslutas i januari 2026.",
-      "Under mina studier har jag utvecklat starka kunskaper inom programmering och teknik samt lärt mig att arbeta effektivt enligt agila arbetsmetoder.",
-      "Jag brinner för att skapa lösningar som kombinerar funktionalitet med användarvänlighet."
-    ]
-  },
-  "workExperience": {
+   "workExperience": {
     "title": "Arbetslivserfarenhet",
     "jobs": [
       {

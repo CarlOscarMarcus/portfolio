@@ -4,20 +4,9 @@ import { Briefcase, BookOpen, FileText, ExternalLink} from 'lucide-react';
 
 const CVTimeline = () => {
   const { t } = useTranslation('home');
-  const introParagraphs = t('introduction.intro', { returnObjects: true });
 
   return (
-    <div className="cv-timeline">
-      {/* Introduction Section */}
-      <section className="introduction-section">
-        <h1 className="intro-title">Oscar Wystråle</h1>
-        {introParagraphs.map((paragraph: string, index: number) => (
-          <p key={`intro-${index}`} className="intro-paragraph">
-            {paragraph}
-          </p>
-        ))} 
-      </section>
-
+    <div className="cv-timeline">      
       {/* Work Experience Section */}
       <section className="cv-section">
         <h3 className="section-title">
