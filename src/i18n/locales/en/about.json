@@ -1,54 +1,45 @@
 {
-  "experienceTitle": "Work Experience",
-  "educationTitle": "Education",
-  "experience": [
-    {
-      "role": "Warehouse Worker",
-      "company": "Nearyou",
-      "date": "May 2024 – Aug 2024, Summer Job",
-      "details": [
-        "Order picking (manual and full pallets) with truck (A2, B3)",
-        "Loading/unloading goods (A2)",
-        "Handling refrigerated, frozen, and dry goods"
+  "pageTitle": "About Me",
+  "sections": {
+    "introduction": {
+      "title": "Introduction",
+      "text": [
+        "Hi, my name is Oscar Wystråle, and I'm a recently graduated software engineer with a focus on web development. I’m currently looking for my first major opportunity in the tech industry.",
+        "I'm passionate about learning, experimenting with new technologies, and building practical solutions that make a difference."
       ]
     },
-    {
-      "role": "Warehouse Worker",
-      "company": "JKS Sverige",
-      "date": "June 2023 – Aug 2023, Summer Job",
-      "details": [
-        "Order picking with truck (A1, A2)",
-        "Worked in dry storage with confectionery"
+    "careerObjective": {
+      "title": "Career Objective",
+      "text": [
+        "I’m ready to take the next step in my career and apply my skills in a professional setting.",
+        "I consider myself a full-stack developer, with a stronger foundation in backend development and system integration.",
+        "My broad skill set allows me to work across different parts of a system, but I'm eager to gain real-world experience that will help me specialize further and grow as a developer."
       ]
     },
-    {
-      "role": "Warehouse Worker",
-      "company": "ICA Gruppen",
-      "date": "May 2022 – July 2022, Summer Job",
-      "details": [
-        "Order picking with truck (A1)",
-        "Focused on accuracy and efficiency in a high-paced environment",
-        "Handling of frozen goods"
+    "bachelorThesis": {
+      "title": "Bachelor Thesis",
+      "link": "https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=Oscar+Wystr%C3%A5le&language=en&pid=diva2%3A1941180&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=4779",
+      "text": [
+        "As part of my bachelor’s degree in Software Engineering, I completed my thesis in early 2025.",
+        "The focus was on exploring how Large Language Models (LLMs), like ChatGPT, could be used to support and partially automate the Systematic Literature Review (SLR) process in academic research. The work combined interviews and practical testing to assess how these models fit into real-world research workflows, especially within the field of Software Engineering.",
+        "This project gave me hands-on experience with both technical and academic aspects of AI, and deepened my interest in how emerging technologies can be applied to solve real challenges in software development and beyond."
       ]
     },
-    {
-      "role": "Caretaker",
-      "company": "Swedish Church, Björnekulla",
-      "date": "June 2017 – July 2021, Summer Job",
-      "details": [
-        "General maintenance work and outdoor practical tasks"
+    "highlightProject": {
+      "title": "Highlight Project – IoT + ML for Telenor",
+      "text": [
+        "During one of my final project courses, I worked with a team of five students on a real-world assignment in collaboration with Telenor Sweden. The goal was to develop a solution to monitor and visualize office occupancy, addressing challenges caused by Telenor’s hybrid work model.",
+        "We created a system using NodeMCU-32S microcontrollers to perform passive Wi-Fi scanning. These devices collected RSSI signal strength data to estimate device positions, which we used to build a heatmap of office usage.",
+        "I was responsible for developing the microcontroller firmware and backend system, handling packet scanning, data transmission, and implementing logic for triangulating positions using ML algorithms trained on reference data.",
+        "This project helped me grow significantly in both technical skills and teamwork, introducing me to agile methodologies and real-world client collaboration."
+      ]
+    },
+    "passion": {
+      "title": "Passion for Technology",
+      "text": [
+        "My interest in technology started early. As a kid, I was fascinated by video games, which led me to wonder how software works behind the scenes. That curiosity turned into a passion for programming.",
+        "Throughout school, I focused on technical subjects and gradually shifted my interest from gaming to systems, tools, and programming languages. Today, I continue to explore new technologies and constantly look for ways to evolve as a developer."
       ]
     }
-  ],
-  "education": [
-    {
-      "school": "Blekinge Institute of Technology (BTH)",
-      "program": "Web Programming",
-      "date": "2021 – 2025 (Ongoing)",
-      "details": [
-        "Studies expected to complete in january 2026",
-        "Strong computer skills and technical understanding"
-      ]
-    }
-  ]
+  }
 }

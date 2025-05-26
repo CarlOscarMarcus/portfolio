@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const { t } = useTranslation('common');
   const { i18n } = useTranslation();
   const [isEnglish, setIsEnglish] = useState(i18n.language === 'en');
   const [menuOpen, setMenuOpen] = useState(false);  // new state for menu toggle
@@ -34,7 +35,7 @@ const Header = () => {
         <h1 className="logo">Oscar Wystråle</h1>
 
         {/* Hamburger button visible only on mobile */}
-        {/* <button
+        <button
           className={`hamburger ${menuOpen ? 'open' : ''}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
@@ -43,13 +44,12 @@ const Header = () => {
           <span></span>
           <span></span>
           <span></span>
-        </button> */}
+        </button>
 
-        {/* <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
-          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>Home</NavLink>
-          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>About</NavLink>
-          <NavLink to="/portfolio" activeClassName="active" onClick={() => setMenuOpen(false)}>Portfolio</NavLink>
-        </nav> */}
+        <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
+          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.home')}</NavLink>
+          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.about')}</NavLink>
+        </nav>
 
         <div className="language-switch">
           <label className="switch">

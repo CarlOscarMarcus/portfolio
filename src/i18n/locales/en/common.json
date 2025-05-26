@@ -1,9 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
-    "portfolio": "Portfolio",
-    "contact": "Contact"
+    "about": "About"
   },
   "footer": {
     "rights": "© 2025 Your Name. All rights reserved."

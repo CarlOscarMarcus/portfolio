@@ -1,54 +1,45 @@
 {
-  "experienceTitle": "Arbetslivserfarenhet",
-  "educationTitle": "Utbildning",
-  "experience": [
-    {
-      "role": "Lagermedarbetare",
-      "company": "Nearyou",
-      "date": "Maj 2024 – Aug 2024, sommarjobb",
-      "details": [
-        "Orderplock (handplock och helpall) med truck (A2, B3)",
-        "Lastning/lossning av gods (A2)",
-        "Hantering av kyl-, frys- och torrvaror"
+  "pageTitle": "Om Mig",
+  "sections": {
+    "introduction": {
+      "title": "Introduktion",
+      "text": [
+        "Hej, mitt namn är Oscar Wystråle, och jag är en nyutexaminerad mjukvaruingenjör med fokus på webbutveckling. Jag söker just nu min första större möjlighet inom tech-branschen.",
+        "Jag brinner för att lära mig nya saker, experimentera med ny teknik och skapa praktiska lösningar som gör skillnad."
       ]
     },
-    {
-      "role": "Lagermedarbetare",
-      "company": "JKS Sverige",
-      "date": "Juni 2023 – Aug 2023, sommarjobb",
-      "details": [
-        "Orderplock med truck (A1, A2)",
-        "Arbetat i torrlager med konfektyr"
+    "careerObjective": {
+      "title": "Karriärmål",
+      "text": [
+        "Jag är redo att ta nästa steg i min karriär och använda mina kunskaper i en professionell miljö.",
+        "Jag ser mig själv som en fullstack-utvecklare med en starkare bakgrund inom backendutveckling och systemintegration.",
+        "Min breda kompetens gör att jag kan arbeta med olika delar av ett system, men jag är ivrig att få verklig erfarenhet som hjälper mig att specialisera mig och utvecklas som utvecklare."
       ]
     },
-    {
-      "role": "Lagermedarbetare",
-      "company": "ICA Gruppen",
-      "date": "Maj 2022 – Juli 2022, sommarjobb",
-      "details": [
-        "Orderplock med truck (A1)",
-        "Fokus på noggrannhet och effektivitet i högt tempo",
-        "Hantering av frysvaror"
+    "bachelorThesis": {
+      "title": "Kandidatexamen",
+      "link": "https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=Oscar+Wystr%C3%A5le&language=en&pid=diva2%3A1941180&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=4779",
+      "text": [
+        "Som en del av min kandidatexamen i mjukvaruteknik slutförde jag mitt examensarbete i början av 2025.",
+        "Fokus låg på att utforska hur stora språkmodeller (LLMs), som ChatGPT, kan användas för att stödja och delvis automatisera processen för systematisk litteraturöversikt (SLR) inom akademisk forskning. Arbetet kombinerade intervjuer och praktiska tester för att bedöma hur dessa modeller passar in i verkliga forskningsflöden, särskilt inom mjukvaruteknik.",
+        "Detta projekt gav mig praktisk erfarenhet av både tekniska och akademiska aspekter av AI och fördjupade mitt intresse för hur ny teknik kan användas för att lösa verkliga utmaningar inom mjukvaruutveckling och bortom."
       ]
     },
-    {
-      "role": "Vaktmästare",
-      "company": "Svenska Kyrkan Björnekulla",
-      "date": "Juni 2017 – Juli 2021, sommarjobb",
-      "details": [
-        "Allmänt underhållsarbete och praktiska uppgifter utomhus"
+    "highlightProject": {
+      "title": "Projekt – IoT + ML för Telenor",
+      "text": [
+        "Under en av mina slutprojektkurser arbetade jag tillsammans med fyra andra studenter med ett verkligt uppdrag i samarbete med Telenor Sverige. Målet var att utveckla en lösning för att övervaka och visualisera kontorsbeläggning, som uppstått på grund av Telenors hybridarbetsmodell.",
+        "Vi skapade ett system med NodeMCU-32S mikrokontrollers för passiv Wi-Fi-skanning. Dessa enheter samlade in RSSI-signalförstärkningsdata för att uppskatta enheternas position, vilket vi använde för att bygga en värmekarta över kontorsanvändningen.",
+        "Jag ansvarade för utvecklingen av mikrokontrollerfirmwaren och backend-systemet, hanterade paketavläsning, dataöverföring och implementerade logiken för triangulering av positioner med hjälp av ML-algoritmer tränade på referensdata.",
+        "Detta projekt hjälpte mig att växa både tekniskt och som lagspelare, och introducerade mig för agila arbetsmetoder och samarbete med verkliga kunder."
+      ]
+    },
+    "passion": {
+      "title": "Passion för Teknik",
+      "text": [
+        "Mitt intresse för teknik började tidigt. Som barn fascinerades jag av videospel, vilket ledde till att jag undrade hur mjukvara fungerar bakom kulisserna. Den nyfikenheten blev till en passion för programmering.",
+        "Under skoltiden fokuserade jag på tekniska ämnen och intresset utvecklades från spel till system, verktyg och programmeringsspråk. Idag fortsätter jag att utforska ny teknik och söker ständigt sätt att utvecklas som utvecklare."
       ]
     }
-  ],
-  "education": [
-    {
-      "school": "Blekinge Tekniska Högskola (BTH)",
-      "program": "Webbprogrammering",
-      "date": "2021 – 2025, pågående",
-      "details": [
-        "Studier beräknas vara klara i januari 2026",
-        "God datorvana och teknisk förståelse"
-      ]
-    }
-  ]
+  }
 }

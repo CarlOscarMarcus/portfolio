@@ -1,9 +1,7 @@
 {
   "nav": {
     "home": "Hem",
-    "about": "Om mig",
-    "portfolio": "Portfolio",
-    "contact": "Kontakt"
+    "about": "Om mig"
   },
   "footer": {
     "rights": "© 2025 Your Name. Alla rättigheter förbehållna."

@@ -1,53 +1,35 @@
 @import '../base/variables';
 
 .about-page {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	padding: 2rem 0;
-}
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  line-height: 1.6;
 
-.card {
-	text-align: center;
-	--border-radius: 0.75rem;
-	--primary-color: #7257fa;
-	--secondary-color: #3c3852;
-	width: 100%;
-	padding: 1rem;
-	border-radius: var(--border-radius);
-	background: #f1f1f3;
-	box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 30%);
-	margin-bottom: 15px;
-}
+  section {
+    margin-bottom: 3rem;
+  }
 
-.card ul{
-	display: inline-block;
-  	text-align: left;
-}
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
 
-.card>*+* {
-	margin-top: 1.1em;
-}
+  p {
+    font-size: 1rem;
+    color: $text-color;
+    margin-bottom: 1rem;
+  }
 
-.card .card__content {
-	color: var(--secondary-color);
-	font-size: 0.86rem;
-}
-
-.card .card__title {
-	padding: 0;
-	font-size: 1.3rem;
-	font-weight: bold;
-}
-
-.card .card__date {
-	color: #6e6b80;
-	font-size: 0.8rem;
-}
-
-h2 {
-	font-family: $font-main;
-	font-size: 1.75rem;
-	margin-bottom: 1rem;
-	padding-bottom: 15px;
-}
+  .introduction-section,
+  .goals-section,
+  .publication-section,
+  .expertise-section,
+  .passion-section {
+    padding-left: 1rem;
+    border-left: 4px solid lighten($primary-color, 20%);
+    background: #fafafa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+} 

@@ -1,44 +1,55 @@
 import React from 'react';
+import { User, Target, BookOpen, Wifi, Heart, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
   const { t } = useTranslation('about');
-  const experience = t('experience', { returnObjects: true });
-  const education = t('education', { returnObjects: true });
+
+  const sections = t('sections', { returnObjects: true });
 
   return (
-    <div className="about-page">
-      <section className="experience-section">
-        <center><h2>{t('experienceTitle')}</h2></center>
-        {experience.map((job, index) => (
-          <div key={index} className="card">
-            <h3>{job.role} | {job.company}</h3>
-            <div class="card_date">{job.date}</div>
-            <ul>
-              {job.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
-              ))}
-            </ul>
-          </div>
+    <main className="about-page">
+      <header className="about-header">
+        <h1>{t('pageTitle')}</h1>
+      </header>
+
+      <section className="introduction-section">
+        <h2><User size={20} /> {sections.introduction.title}</h2>
+        {sections.introduction.text.map((p, i) => (
+          <p key={i}>{p}</p>
         ))}
       </section>
 
-      <section className="education-section">
-        <center><h2>{t('educationTitle')}</h2></center>
-        {education.map((edu, index) => (
-          <div key={index} className="card">
-            <h3>{edu.school}</h3>
-            <p><strong>{edu.program}</strong></p>
-            <div class="card_date">{edu.date}</div>
-            <ul>
-              {edu.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
-              ))}
-            </ul>
-          </div>
+      <section className="goals-section">
+        <h2><Target size={20} /> {sections.careerObjective.title}</h2>
+        {sections.careerObjective.text.map((p, i) => (
+          <p key={i}>{p}</p>
         ))}
       </section>
-    </div>
+
+      <section className="publication-section">
+        <a href={sections.bachelorThesis.link} target="_blank" rel="noopener noreferrer">
+          <h2><BookOpen size={20} /> {sections.bachelorThesis.title} <ExternalLink size={20} /></h2>
+        </a>
+        {sections.bachelorThesis.text.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </section>
+
+      <section className="expertise-section">
+        <h2><Wifi size={20} /> {sections.highlightProject.title}</h2>
+        {sections.highlightProject.text.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </section>
+
+      <section className="passion-section">
+        <h2><Heart size={20} /> {sections.passion.title}</h2>
+        {sections.passion.text.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </section>
+    </main>
   );
 };
 
