@@ -9,9 +9,6 @@ const About = () => {
 
   return (
     <main className="about-page">
-      <header className="about-header">
-        <h1>{t('pageTitle')}</h1>
-      </header>
 
       <section className="introduction-section">
         <h2><User size={20} /> {sections.introduction.title}</h2>

@@ -1,10 +1,51 @@
 @import '../base/variables';
 
 .site-footer {
-  background-color: $secondary-color;
-  color: $white;
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.875rem;
-}
+  background-color: #f4f4f4;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #ddd;
 
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    text-align: center;
+
+    p {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 0;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: 1.5rem;
+
+      a {
+        color: #444;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #007BFF;
+        }
+
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 600px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+  }
+}
