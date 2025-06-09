@@ -1,12 +1,19 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, Calendar } from 'lucide-react';
+import LetterGlitch from './animations/LetterGlitch';
 
 const Hero = () => {
   const { t } = useTranslation('hero');
 
   return (
     <section className="hero">
+      {/* Background effect */}
+      <div className="hero__background">
+        <LetterGlitch glitchSpeed={80} smooth={true} />
+      </div>
+
+      {/* Foreground content */}
       <div className="hero__container">
         <div className="hero__box hero__box--image">
           <img
@@ -26,10 +33,8 @@ const Hero = () => {
                 {t('hero.phone')}:
               </span>
               <span className="hero__value">
-                    <a href={`tel:${t('hero.emailAddress')}`}>
-                        {t('hero.phoneNumber')}
-                    </a>
-                </span>
+                <a href={`tel:${t('hero.phoneNumber')}`}>{t('hero.phoneNumber')}</a>
+              </span>
             </div>
 
             <div className="hero__field">

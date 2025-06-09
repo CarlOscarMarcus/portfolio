@@ -1,12 +1,15 @@
 @import '../base/variables';
 
+$white: #ffffff;
+$black: #000000;
+
 .site-header {
-    background-color: $secondary-color;
-    color: $white;
+    background-color: $white;
+    color: $black;
     padding: 1rem 0;
 
     .container {
-        max-width: $max-width; // from your variables, e.g. 1200px
+        max-width: $max-width;
         padding-left: $container-padding;
         padding-right: $container-padding;
         margin-left: auto;
@@ -20,6 +23,7 @@
     .logo {
         font-size: 1.5rem;
         font-weight: bold;
+        color: $black;
     }
 
     .nav {
@@ -27,7 +31,7 @@
         gap: 2rem;
 
         .nav-link {
-            color: $white;
+            color: $black;
             font-weight: 500;
             transition: color 0.2s;
 
@@ -38,9 +42,8 @@
         }
     }
 
-    // Hamburger button styles
     .hamburger {
-        display: none; // hide by default on desktop
+        display: none;
         flex-direction: column;
         justify-content: space-around;
         width: 2rem;
@@ -54,7 +57,7 @@
         span {
             width: 2rem;
             height: 0.25rem;
-            background: $white;
+            background: $black;
             border-radius: 10px;
             transition: all 0.3s linear;
             position: relative;
@@ -74,25 +77,25 @@
         }
     }
 
-    // Responsive behavior
     @media (max-width: 768px) {
         .container {
             flex-wrap: wrap;
         }
 
         .nav {
-            display: none; // hide nav links initially on mobile
+            display: none;
             flex-direction: column;
             width: 100%;
-            background-color: $secondary-color;
+            background-color: $white;
             margin-top: 1rem;
             gap: 1rem;
 
             &.nav-open {
-                display: flex; // show nav when menu is open
+                display: flex;
             }
 
             a {
+                color: $black;
                 padding: 0.75rem 1rem;
                 border-radius: 4px;
 
@@ -104,21 +107,20 @@
         }
 
         .hamburger {
-            display: flex; // show hamburger button on mobile
+            display: flex;
         }
 
         .language-switch {
-            order: 1; // put language switch below the logo and hamburger
+            order: 1;
             width: 100%;
             margin-top: 1rem;
             display: flex;
             justify-content: center;
         }
     }
-
 }
 
-/* Paste your full CSS for .switch and its children here */
+/* Toggle switch styles */
 .switch {
     font-size: 17px;
     position: relative;
@@ -149,7 +151,7 @@
         0.3em 0 0 0 #373737, 0.3em 0.3em 0 0 #373737, 0 0.3em 0 0 #373737;
 }
 
-.toggle>.left {
+.toggle > .left {
     position: absolute;
     display: flex;
     width: 50%;
@@ -186,7 +188,7 @@
     transform: rotateX(90deg);
 }
 
-.toggle>.right {
+.toggle > .right {
     position: absolute;
     display: flex;
     width: 50%;
@@ -223,12 +225,12 @@
     transform: rotateX(90deg);
 }
 
-.switch input:checked+.toggle>.left {
+.switch input:checked + .toggle > .left {
     transform: rotateX(10deg) rotateY(45deg);
     color: rgb(206, 206, 206);
 }
 
-.switch input:checked+.toggle>.right {
+.switch input:checked + .toggle > .right {
     transform: rotateX(10deg) rotateY(0deg);
     color: $secondary-color;
 }

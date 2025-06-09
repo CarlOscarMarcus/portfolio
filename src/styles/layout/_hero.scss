@@ -1,4 +1,35 @@
 .hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  overflow: hidden;
+
+  .hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .hero__container {
+    position: relative;
+    z-index: 1; // Ensure it sits above the glitch effect
+    display: flex;
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.95); // Slight transparency to let glitch show
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.hero {
   display: flex;
   justify-content: center;
   padding: 4rem 1rem;
