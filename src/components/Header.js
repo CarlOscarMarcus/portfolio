@@ -31,42 +31,45 @@ const Header = () => {
 
   return (
     <header className="site-header">
-      <div className="container">
-        <h1 className="logo">Oscar Wystråle</h1>
-
-        {/* Hamburger button visible only on mobile */}
-        <button
-          className={`hamburger ${menuOpen ? 'open' : ''}`}
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-          aria-expanded={menuOpen}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+     <div className="container">
+        <div className="left-group">
+            <h1 className="logo">Oscar Wystråle</h1>
+        </div>
 
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
-          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.home')}</NavLink>
-          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.about')}</NavLink>
+            <NavLink to="/" exact="true" activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.home')}</NavLink>
+            <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.about')}</NavLink>
         </nav>
 
-        <div className="language-switch">
-          <label className="switch">
-            <input
-              type="checkbox"
-              className="cb"
-              checked={isEnglish}
-              onChange={toggleLanguage}
-              aria-label="Toggle language"
-            />
-            <span className="toggle">
-              <span className="left">sv</span>
-              <span className="right">en</span>
-            </span>
-          </label>
+        <div className="right-group">
+            <button
+            className={`hamburger ${menuOpen ? 'open' : ''}`}
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+            >
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+
+            <div className="language-switch">
+            <label className="switch">
+                <input
+                type="checkbox"
+                className="cb"
+                checked={isEnglish}
+                onChange={toggleLanguage}
+                aria-label="Toggle language"
+                />
+                <span className="toggle">
+                <span className="left">sv</span>
+                <span className="right">en</span>
+                </span>
+            </label>
+            </div>
         </div>
-      </div>
+        </div>
     </header>
   );
 };

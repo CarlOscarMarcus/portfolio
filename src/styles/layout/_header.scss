@@ -34,11 +34,11 @@ $black: #000000;
             color: $black;
             font-weight: 500;
             transition: color 0.2s;
-
-            &.active,
-            &:hover {
-                color: $primary-color;
-            }
+        }
+        a.active,
+        a:hover {
+            color: $black;
+            text-decoration: underline;
         }
     }
 
