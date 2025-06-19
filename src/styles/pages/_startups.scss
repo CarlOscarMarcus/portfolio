@@ -1,0 +1,123 @@
+// Startup detail page styles
+.startup-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: calc(var(--spacing-large) * 1.5);
+
+  .startup-header {
+    margin-bottom: calc(var(--spacing-large) * 1.5);
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--spacing-small);
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      margin-bottom: var(--spacing-large);
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+
+    .startup-title-section {
+      .startup-name {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--color-text-primary);
+        margin-bottom: var(--spacing-large);
+        line-height: 1.3;
+      }
+
+      .startup-meta {
+        display: flex;
+        flex-direction: column; // ändrat för att visa varje item på egen rad
+        gap: var(--spacing-small);
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        .meta-item {
+          display: flex;
+          align-items: center;
+          gap: var(--spacing-small);
+          color: var(--color-text-secondary);
+          font-weight: 500;
+          font-size: 1.05rem;
+
+          svg {
+            color: var(--color-accent);
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .startup-content {
+    line-height: 2;
+
+    .startup-paragraph {
+      margin-bottom: var(--spacing-large);
+      font-size: 1.15rem;
+      color: var(--color-text-primary);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .startup-detail {
+    padding: var(--spacing-large);
+
+    .startup-header {
+      .startup-title-section {
+        .startup-name {
+          font-size: 2.25rem;
+        }
+
+        .startup-meta {
+          flex-direction: column;
+          gap: var(--spacing-small);
+
+          .meta-item {
+            font-size: 1.05rem;
+          }
+        }
+      }
+    }
+
+    .startup-content {
+      .startup-paragraph {
+        font-size: 1.05rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .startup-detail {
+    padding: var(--spacing-medium);
+
+    .startup-header {
+      .startup-title-section {
+        .startup-name {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .startup-content {
+      .startup-paragraph {
+        font-size: 1rem;
+        line-height: 1.8;
+      }
+    }
+  }
+}

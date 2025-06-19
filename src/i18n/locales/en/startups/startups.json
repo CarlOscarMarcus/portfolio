@@ -1,0 +1,49 @@
+{
+  "title": "Startups I've Helped Develop",
+  "companies": [
+    {
+      "id": "sociala-verktygsladan",
+      "name": "Sociala verktygslådan",
+      "title": "UX Consultant",
+      "duration": "June 2025 – Present",
+      "shortDescription": "Improving user experience for an informal website aimed at social workers, families, and children.",
+      "fullDescription": [
+        "Responsible for enhancing the usability and accessibility of the company’s informal website.",
+        "Focused on creating an intuitive and engaging interface to encourage visitors to stay longer, which positively impacts SEO.",
+        "Tailored the site’s structure, navigation, and tone to meet the needs of both professional users (social workers) and non-professional users (families and children).",
+        "Worked on SEO improvements to increase visibility and ensure content reaches the right audience.",
+        "This role is limited to the website and does not involve the company’s app or core product."
+      ],
+      "url": "socialaverktygsladan.se"
+    },
+    {
+      "id": "Hantverkskollen",
+      "name": "Hantverkskollen",
+      "title": "Fullstack Consultant Developer",
+      "duration": "June 2025 - Present",
+      "shortDescription": "Development of a communication system between clients and contractors through a web platform.",
+      "fullDescription": [
+        "The startup connects clients with contractors in various service sectors, where clear and trackable communication is crucial.",
+        "The objective was to build a reliable, low-cost, and scalable communication solution that logs all interactions between both parties.",
+        "I proposed and evaluated three architecture options (email bot, internal chat with email notifications, browser push notifications), and implemented the most sustainable one: a web-based chat system with automatic email alerts when new messages are sent.",
+        "The system centralizes all communication logs, prevents users from bypassing the platform, and serves as a stable foundation for future upgrades like real-time chat or push notifications."
+      ],
+      "url": "https://hantverkskollen.se/"
+    },
+    {
+      "id": "Juke",
+      "name": "Juke",
+      "title": "Fullstack Developer",
+      "duration": "June 2025 - Present",
+      "shortDescription": "Developing a system that allows customers to queue songs via a web application in pubs and bars.",
+      "fullDescription": [
+        "I am responsible for further developing a product that connects the web app to the bars’ Spotify accounts to enable song queuing directly in the bar’s music system.",
+        "The system aims to increase sales and customer dwell time by allowing them to influence the music selection via their mobile devices or computers.",
+        "Bars will be able to set filters and control the music played, for example, through themed days where only specific genres or decades, like 90s hits, can be queued.",
+        "A key part is refactoring the current iTunes integration to Spotify’s API to improve functionality and stability.",
+        "I’m also implementing a company-specific setup where bars can link their Spotify account through the website to grant the system permission to manage the queue using an API token."
+      ],
+      "url": "Not available yet"
+    }
+  ]
+}

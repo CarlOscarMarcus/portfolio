@@ -1,16 +1,49 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Briefcase, BookOpen, FileText, ExternalLink } from 'lucide-react';
+import { Briefcase, BookOpen, FileText, ExternalLink, Rocket } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import ScrollFadeInSection from '../components/animations/ScrollFadeInSection';
 
 const CVTimeline = () => {
   const { t } = useTranslation('home');
+  const { t: tStartups } = useTranslation('startups/startups');
 
   const workExperience = t('workExperience.jobs', { returnObjects: true });
   const education = t('education.school', { returnObjects: true });
+  const startups = tStartups('companies', { returnObjects: true });
 
   return (
     <div className="cv-timeline">
+      {/* Startups Section */}
+      <section className="cv-section">
+        <h3 className="section-title">
+          <Rocket className="section-icon" />
+          {tStartups('title')}
+        </h3>
+        <div className="timeline">
+          {startups.map((startup, idx) => (
+            <ScrollFadeInSection key={`startup-${idx}`}>
+              <div className="timeline-item">
+                <div className="timeline-dot" />
+                <div className="timeline-content">
+                  <Link
+                    to={`/startups/${startup.id}`}
+                    className="startup-link"
+                  >
+                    <h4>
+                      {startup.name}
+                      <ExternalLink size={16} style={{ display: 'inline-block', marginLeft: '4px' }} />
+                    </h4>
+                    <p><em>{startup.title}</em></p>
+                    <p>{startup.shortDescription}</p>
+                    <span className="timeline-date">{startup.duration}</span>
+                  </Link>
+                </div>
+              </div>
+            </ScrollFadeInSection>
+          ))}
+        </div>
+      </section>
       {/* Work Experience Section */}
       <section className="cv-section">
         <h3 className="section-title">

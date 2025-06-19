@@ -1,0 +1,50 @@
+{
+  "title": "Startups jag har hjälpt utveckla",
+  "companies": [
+    {
+      "id": "sociala-verktygsladan",
+      "name": "Sociala verktygslådan",
+      "title": "Konsult inom användarupplevelse",
+      "duration": "Juni 2025 – Pågående",
+      "shortDescription": "Förbättring av användarupplevelsen på en informell hemsida riktad till socionomer, familjer och barn.",
+      "fullDescription": [
+        "Ansvarar för att förbättra användarvänligheten och tillgängligheten på företagets informella hemsida.",
+        "Fokuserar på att skapa en intuitiv och engagerande webbupplevelse som får besökare att stanna längre, vilket även bidrar positivt till SEO.",
+        "Hemsidan är anpassad för både professionella användare (socionomer) och icke-professionella användare (familjer och barn).",
+        "Har arbetat med att strukturera och anpassa navigationen och tonaliteten för att passa målgruppens behov.",
+        "Vid tid över arbetar jag även med att förbättra SEO-strategin för att öka synligheten i sökmotorer.",
+        "Uppdraget är begränsat till hemsidan och omfattar inte företagets app eller huvudprodukt."
+      ],
+      "url": "socialaverktygsladan.se"
+    },
+    {
+      "id": "Hantverkskollen",
+      "name": "Hantverkskollen",
+      "title": "Fullstack Consultant Developer",
+      "duration": "June 2025 - Present",
+      "shortDescription": "Development of a communication system between clients and contractors through a web platform.",
+      "fullDescription": [
+        "The startup connects clients with contractors in various service sectors, where clear and trackable communication is crucial.",
+        "The objective was to build a reliable, low-cost, and scalable communication solution that logs all interactions between both parties.",
+        "I proposed and evaluated three architecture options (email bot, internal chat with email notifications, browser push notifications), and implemented the most sustainable one: a web-based chat system with automatic email alerts when new messages are sent.",
+        "The system centralizes all communication logs, prevents users from bypassing the platform, and serves as a stable foundation for future upgrades like real-time chat or push notifications."
+      ],
+      "url": "https://hantverkskollen.se/"
+    },
+    {
+      "id": "Juke",
+      "name": "Juke",
+      "title": "Fullstack Utvecklare",
+      "duration": "Juni 2025 - Pågående",
+      "shortDescription": "Utveckling av ett system för att låta kunder köa låtar via en webbapplikation på pubar och barer.",
+      "fullDescription": [
+        "Jag ansvarar för att vidareutveckla en produkt som kopplar webbapplikationen till barernas Spotify-konton för att möjliggöra låtköning direkt i barens musiksystem.",
+        "Systemet ska öka försäljning och kundernas tid på plats genom att låta dem påverka musikutbudet via sin mobil eller dator.",
+        "Barerna får möjlighet att sätta filter och kontrollera vilken musik som spelas, till exempel genom temadagar där endast viss musik kan köas, som 90-talets hits.",
+        "En viktig del är att refaktorera nuvarande integration från iTunes till Spotifys API för att få bättre funktionalitet och stabilitet.",
+        "Jag implementerar också ett företagsspecifikt upplägg där barerna kan länka sitt Spotify-konto via hemsidan för att ge systemet behörighet att styra låtköningen via API-token."
+      ],
+      "url": "Inte tillgängligt än"
+    }
+  ]
+}
