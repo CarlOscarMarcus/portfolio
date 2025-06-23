@@ -3,7 +3,6 @@ import { useParams, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Calendar, Briefcase, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import ScrollFadeInSection from '../components/animations/ScrollFadeInSection';
 
 const Startups = () => {
   const { company } = useParams();
