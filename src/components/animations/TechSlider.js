@@ -12,11 +12,13 @@ import {
   faGitAlt,
   faPhp,
   faLinux,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons';
 
 const technologies = [
     { name: 'HTML5', icon: faHtml5 },
     { name: 'CSS3', icon: faCss3Alt },
+    { name: 'SASS', icon: faSass },
     { name: 'JavaScript', icon: faJsSquare },
     { name: 'PHP', icon: faPhp },
     { name: 'Python', icon: faPython },
