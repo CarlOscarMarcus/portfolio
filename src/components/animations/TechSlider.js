@@ -1,4 +1,5 @@
 import React from 'react';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'; // ✅ correct
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHtml5,
@@ -26,6 +27,7 @@ const technologies = [
     { name: 'Symfony', icon: faSymfony },
     { name: 'GitHub', icon: faGithub },
     { name: 'Git', icon: faGitAlt },
+    { name: 'Database', icon: faDatabase},
     { name: 'Docker', icon: faDocker },
     { name: 'Linux', icon: faLinux },
 ];
