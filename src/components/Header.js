@@ -6,7 +6,7 @@ const Header = () => {
   const { t } = useTranslation('common');
   const { i18n } = useTranslation();
   const [isEnglish, setIsEnglish] = useState(i18n.language === 'en');
-  const [menuOpen, setMenuOpen] = useState(false);  // new state for menu toggle
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const savedLang = sessionStorage.getItem('lang');
@@ -34,7 +34,6 @@ const Header = () => {
       <div className="container">
         <h1 className="logo">Oscar Wystråle</h1>
 
-        {/* Hamburger button visible only on mobile */}
         <button
           className={`hamburger ${menuOpen ? 'open' : ''}`}
           onClick={toggleMenu}
@@ -47,11 +46,33 @@ const Header = () => {
         </button>
 
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
-          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.home')}</NavLink>
-          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>{t('nav.about')}</NavLink>
+          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>
+            {t('nav.home')}
+          </NavLink>
+          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>
+            {t('nav.about')}
+          </NavLink>
+
+          {/* Mobile-only language switch */}
+          <div className="language-switch mobile-only">
+            <label className="switch">
+              <input
+                type="checkbox"
+                className="cb"
+                checked={isEnglish}
+                onChange={toggleLanguage}
+                aria-label="Toggle language"
+              />
+              <span className="toggle">
+                <span className="left">sv</span>
+                <span className="right">en</span>
+              </span>
+            </label>
+          </div>
         </nav>
 
-        <div className="language-switch">
+        {/* Desktop-only language switch */}
+        <div className="language-switch desktop-only">
           <label className="switch">
             <input
               type="checkbox"
