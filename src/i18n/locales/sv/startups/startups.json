@@ -20,16 +20,15 @@
     {
       "id": "Hantverkskollen",
       "name": "Hantverkskollen",
-      "title": "Fullstack Consultant Developer",
-      "duration": "June 2025 - Present",
-      "shortDescription": "Development of a communication system between clients and contractors through a web platform.",
+      "title": "Fullstack konsultutvecklare",
+      "duration": "Juni 2025 - Pågående",
+      "shortDescription": "Utveckling av ett kommunikationssystem mellan kunder och hantverkare via en webbplattform.",
       "fullDescription": [
-        "The startup connects clients with contractors in various service sectors, where clear and trackable communication is crucial.",
-        "The objective was to build a reliable, low-cost, and scalable communication solution that logs all interactions between both parties.",
-        "I proposed and evaluated three architecture options (email bot, internal chat with email notifications, browser push notifications), and implemented the most sustainable one: a web-based chat system with automatic email alerts when new messages are sent.",
-        "The system centralizes all communication logs, prevents users from bypassing the platform, and serves as a stable foundation for future upgrades like real-time chat or push notifications."
-      ],
-      "url": "https://hantverkskollen.se/"
+        "Startuppen kopplar samman kunder med hantverkare inom olika tjänstesektorer, där tydlig och spårbar kommunikation är avgörande.",
+        "Målet var att bygga en pålitlig, kostnadseffektiv och skalbar kommunikationslösning som loggar all interaktion mellan båda parter.",
+        "Jag föreslog och utvärderade tre arkitekturalternativ (e-postbot, intern chatt med e-postaviseringar, webbläsarbaserade pushnotiser), och implementerade det mest hållbara alternativet: ett webbaserat chattsystem med automatiska e-postpåminnelser vid nya meddelanden.",
+        "Systemet centraliserar all kommunikation, förhindrar att användare kringgår plattformen, och utgör en stabil grund för framtida funktioner som realtidschatt eller pushnotiser."
+      ]
     },
     {
       "id": "Juke",
