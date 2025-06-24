@@ -19,14 +19,15 @@
     {
       "id": "Hantverkskollen",
       "name": "Hantverkskollen",
-      "title": "Fullstack Consultant Developer",
-      "duration": "June 2025 - Present",
-      "shortDescription": "Development of a communication system between clients and contractors through a web platform.",
+      "title": "Consultant",
+      "duration": "June 2025 – Present",
+      "shortDescription": "Supporting research and discovery for digital solutions within the construction and contractor industry.",
       "fullDescription": [
-        "The startup connects clients with contractors in various service sectors, where clear and trackable communication is crucial.",
-        "The objective was to build a reliable, low-cost, and scalable communication solution that logs all interactions between both parties.",
-        "I proposed and evaluated three architecture options (email bot, internal chat with email notifications, browser push notifications), and implemented the most sustainable one: a web-based chat system with automatic email alerts when new messages are sent.",
-        "The system centralizes all communication logs, prevents users from bypassing the platform, and serves as a stable foundation for future upgrades like real-time chat or push notifications."
+        "As a consultant, my current role involves helping the startup explore and understand the needs of craftsmen and contractors in Sweden.",
+        "The work is in an early stage where we're gathering insights through market research to identify pain points in the industry.",
+        "One of the most likely outcomes is building a booking or communication system between customers and craftsmen—especially since many professionals prefer not to take phone calls while working.",
+        "The exact product direction is still undecided, as it will be shaped by ongoing research and user feedback.",
+        "My contributions will adapt depending on the results, but I’m involved from a technical and strategic perspective to guide the development of a meaningful digital solution."
       ],
       "url": "https://hantverkskollen.se/"
     },

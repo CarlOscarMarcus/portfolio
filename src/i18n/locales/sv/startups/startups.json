@@ -20,15 +20,17 @@
     {
       "id": "Hantverkskollen",
       "name": "Hantverkskollen",
-      "title": "Fullstack konsultutvecklare",
-      "duration": "Juni 2025 - Pågående",
-      "shortDescription": "Utveckling av ett kommunikationssystem mellan kunder och hantverkare via en webbplattform.",
+      "title": "Konsult",
+      "duration": "Juni 2025 – Pågående",
+      "shortDescription": "Stöttar research och idéutveckling av digitala verktyg för hantverksbranschen.",
       "fullDescription": [
-        "Startuppen kopplar samman kunder med hantverkare inom olika tjänstesektorer, där tydlig och spårbar kommunikation är avgörande.",
-        "Målet var att bygga en pålitlig, kostnadseffektiv och skalbar kommunikationslösning som loggar all interaktion mellan båda parter.",
-        "Jag föreslog och utvärderade tre arkitekturalternativ (e-postbot, intern chatt med e-postaviseringar, webbläsarbaserade pushnotiser), och implementerade det mest hållbara alternativet: ett webbaserat chattsystem med automatiska e-postpåminnelser vid nya meddelanden.",
-        "Systemet centraliserar all kommunikation, förhindrar att användare kringgår plattformen, och utgör en stabil grund för framtida funktioner som realtidschatt eller pushnotiser."
-      ]
+        "Min roll som konsult innebär att jag hjälper företaget att undersöka och förstå hantverkares behov i Sverige.",
+        "Just nu befinner vi oss i en tidig fas där fokus ligger på marknadsundersökning och att identifiera problemområden inom branschen.",
+        "Troligtvis kommer resultatet att bli ett boknings- eller kommunikationssystem mellan kund och hantverkare, då många ogillar att svara i telefon när de jobbar.",
+        "Exakt vad produkten blir är ännu inte bestämt – det styrs av den feedback och de insikter vi samlar in under processen.",
+        "Min insats anpassas utifrån detta, men jag bidrar både tekniskt och strategiskt för att utveckla en relevant digital lösning."
+      ],
+      "url": "https://hantverkskollen.se/"
     },
     {
       "id": "Juke",
