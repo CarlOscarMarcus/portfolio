@@ -46,12 +46,21 @@ const Header = () => {
         </button>
 
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
-          <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            onClick={() => setMenuOpen(false)}
+          >
             {t('nav.home')}
           </NavLink>
-          <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            onClick={() => setMenuOpen(false)}
+          >
             {t('nav.about')}
           </NavLink>
+
 
           {/* Mobile-only language switch */}
           <div className="language-switch mobile-only">
