@@ -32,15 +32,38 @@ $black: #000000;
         gap: 2rem;
 
         .nav-link {
+            position: relative;
             color: $black;
             font-weight: 500;
-            transition: color 0.2s;
-        }
+            padding: 0.5rem 0;
+            text-decoration: none;
+            transition: color 0.3s ease;
 
-        a.active,
-        a:hover {
-            color: $black;
-            text-decoration: underline;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: $black;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform 0.25s ease;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+            }
+
+            &.active {
+                font-weight: 600;
+                color: $black;
+
+                &::after {
+                    transform: scaleX(1);
+                }
+            }
         }
     }
 
