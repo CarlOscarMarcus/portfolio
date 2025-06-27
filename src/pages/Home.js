@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import { Briefcase, BookOpen, FileText, ExternalLink, Rocket } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ const CVTimeline = () => {
 
   return (
     <div className="cv-timeline">
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Oscar Wystråle | Developer Portfolio</title>
+        <meta name="description" content="Explore Oscar Wystråle's portfolio with experience in React, Symfony, Docker, and more. Based in Sweden, open to collaborations and freelance projects." />
+        <meta name="keywords" content="Oscar Wystråle, developer, frontend, backend, React, Symfony, portfolio, freelance" />
+        <meta name="author" content="Oscar Wystråle" />
+        <link rel="canonical" href="https://www.oscarwystrale.com/" />
+      </Helmet>
+
       {/* Startups Section */}
       <section className="cv-section">
         <h3 className="section-title">
