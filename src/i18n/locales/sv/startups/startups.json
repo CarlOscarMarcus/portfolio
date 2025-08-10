@@ -18,21 +18,6 @@
       "url": "https://socialaverktygsladan.se/"
     },
     {
-      "id": "Hantverkskollen",
-      "name": "Hantverkskollen",
-      "title": "Konsult",
-      "duration": "Juni 2025 – Pågående",
-      "shortDescription": "Stöttar research och idéutveckling av digitala verktyg för hantverksbranschen.",
-      "fullDescription": [
-        "Min roll som konsult innebär att jag hjälper företaget att undersöka och förstå hantverkares behov i Sverige.",
-        "Just nu befinner vi oss i en tidig fas där fokus ligger på marknadsundersökning och att identifiera problemområden inom branschen.",
-        "Troligtvis kommer resultatet att bli ett boknings- eller kommunikationssystem mellan kund och hantverkare, då många ogillar att svara i telefon när de jobbar.",
-        "Exakt vad produkten blir är ännu inte bestämt – det styrs av den feedback och de insikter vi samlar in under processen.",
-        "Min insats anpassas utifrån detta, men jag bidrar både tekniskt och strategiskt för att utveckla en relevant digital lösning."
-      ],
-      "url": "https://hantverkskollen.se/"
-    },
-    {
       "id": "Juke",
       "name": "Juke",
       "title": "Fullstack Utvecklare",
