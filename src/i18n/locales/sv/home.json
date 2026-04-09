@@ -1,44 +1,44 @@
   {
    "workExperience": {
-    "title": "Arbetslivserfarenhet",
-    "jobs": [
-        {
-            "position": "Mjukvaruutvecklare",
-            "company": "CGI Sverige",
-            "type": "Kurs Projekt (PA1449)",
-            "period": "Januari 2026 - Juni 2026"
-        },
-        {
-            "position": "Mjukvaruutvecklare",
-            "company": "Telenor Sverige",
-            "type": "Kurs Projekt (PA1416)",
-            "period": "Januari 2025 - Juni 2025"
-        },
-        {
-            "position": "Lagerarbetare",
-            "company": "Nearyou",
-            "type": "Visstidsanställning",
-            "period": "Maj 2024 - Aug 2024"
-        },
-        {
-            "position": "Lagerarbetare",
-            "company": "JKS Sverige",
-            "type": "Visstidsanställning",
-            "period": "Juni 2023 - Aug 2023"
-        },
-        {
-            "position": "Lagerarbetare",
-            "company": "ICA Gruppen",
-            "type": "Visstidsanställning",
-            "period": "Maj 2022 - Juli 2022"
-        },
-        {
-            "position": "Kyrkogårdsvaktmästare",
-            "company": "Svenska Kyrkan Björnekulla",
-            "type": "Sommarjobb",
-            "period": "Juni 2017 – Juli 2021"
-        }
-    ]
+        "title": "Arbetslivserfarenhet",
+        "jobs": [
+            {
+                "position": "Mjukvaruutvecklare",
+                "company": "CGI Sverige",
+                "type": "Kurs Projekt (PA1449)",
+                "period": "Januari 2026 - Juni 2026"
+            },
+            {
+                "position": "Mjukvaruutvecklare",
+                "company": "Telenor Sverige",
+                "type": "Kurs Projekt (PA1416)",
+                "period": "Januari 2025 - Juni 2025"
+            },
+            {
+                "position": "Lagerarbetare",
+                "company": "Nearyou",
+                "type": "Visstidsanställning",
+                "period": "Maj 2024 - Aug 2024"
+            },
+            {
+                "position": "Lagerarbetare",
+                "company": "JKS Sverige",
+                "type": "Visstidsanställning",
+                "period": "Juni 2023 - Aug 2023"
+            },
+            {
+                "position": "Lagerarbetare",
+                "company": "ICA Gruppen",
+                "type": "Visstidsanställning",
+                "period": "Maj 2022 - Juli 2022"
+            },
+            {
+                "position": "Kyrkogårdsvaktmästare",
+                "company": "Svenska Kyrkan Björnekulla",
+                "type": "Sommarjobb",
+                "period": "Juni 2017 – Juli 2021"
+            }
+        ]
     },
     "education": {
         "title": "Utbildning",
@@ -58,9 +58,9 @@
     "publication": {
         "title": "Publikation",
         "paper": {
-        "authors": "Roolf, Zulius & Wystråle, Oscar",
-        "year": "2025",
-        "source": "DiVA Portal"
+            "authors": "Roolf, Zulius & Wystråle, Oscar",
+            "year": "2025",
+            "source": "DiVA Portal"
         }
     }
 }
