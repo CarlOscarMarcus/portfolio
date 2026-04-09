@@ -3,6 +3,12 @@
     "title": "Work Experience",
     "jobs": [
         {
+            "position": "Software Developer",
+            "company": "CGI Sweden",
+            "type": "Course Project (PA1449)",
+            "period": "January 2026 - June 2026"
+        },
+        {
         "position": "Software Developer",
         "company": "Telenor Sweden",
         "type": "Course Project (PA1416)",
