@@ -1,6 +1,6 @@
 {
     "workExperience": {
-    "title": "Work Experience",
+        "title": "Work Experience",
         "jobs": [
             {
                 "position": "Software Developer",
@@ -59,9 +59,9 @@
     "publication": {
         "title": "Publication",
         "paper": {
-            "authors": "Roolf, Zulius & Wystråle, Oscar",
-            "year": "2025",
-            "source": "DiVA Portal"
+        "authors": "Roolf, Zulius & Wystråle, Oscar",
+        "year": "2025",
+        "source": "DiVA Portal"
         }
     }
 }
