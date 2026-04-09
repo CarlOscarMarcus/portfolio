@@ -1,13 +1,13 @@
 {
-  "nav": {
-    "home": "Hem",
-    "about": "Om mig"
-  },
-  "footer": {
-    "rights": "© 2025 Your Name. Alla rättigheter förbehållna."
-  },
-  "buttons": {
-    "submit": "Skicka",
-    "cancel": "Avbryt"
-  }
+    "nav": {
+        "home": "Hem",
+        "about": "Om mig"
+    },
+    "footer": {
+        "rights": "© 2025 Your Name. Alla rättigheter förbehållna."
+    },
+    "buttons": {
+        "submit": "Skicka",
+        "cancel": "Avbryt"
+    }
 }

@@ -1,13 +1,13 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About"
-  },
-  "footer": {
-    "rights": "© 2025 Your Name. All rights reserved."
-  },
-  "buttons": {
-    "submit": "Submit",
-    "cancel": "Cancel"
-  }
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    },
+    "footer": {
+        "rights": "© 2025 Your Name. All rights reserved."
+    },
+    "buttons": {
+        "submit": "Submit",
+        "cancel": "Cancel"
+    }
 }
